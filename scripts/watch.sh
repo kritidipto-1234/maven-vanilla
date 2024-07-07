@@ -1,0 +1,1 @@
+find ./src -name "*.java" | entr -r mvn compile exec:java -Dexec.mainClass="your.main.Class"
